@@ -1,3 +1,6 @@
+
+
+
 To run the generator first run the 111.php file on C9, after website establishedwe have 2 ways to run the generator
 
 1. Download the bot file, use bot to auto run the website and grab the twitters of username Weiguo_udel, then generate the twitter of that user's style.
@@ -9,6 +12,13 @@ The sequnce of the code is we input the username of Weiguo_udel, the web crawler
 This sequnce is much simplier, just write sample text in tweet.txt and use markov text generator to process and then return the outcome in text file and screen.
 
 The Markov text generator use chain of length 1. And the maximum sample text input is 2000. 
+
+
+
+How to run the whole code together:
+First step:put all the file in the same folder in cloud9 
+Second step:open a terminal tab: g++ markov.cpp
+Third step: enter 111.php and tab "run"
 
  
  
